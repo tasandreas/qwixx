@@ -1,0 +1,340 @@
+.root {
+    -fx-background-color: #1a1a2e;
+    -fx-font-family: "Arial";
+}
+
+.label-titel {
+    -fx-text-fill: #e94560;
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #e94560, 10, 0.5, 0, 0);
+}
+
+.label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+}
+
+.list-view {
+    -fx-background-color: #16213e;
+    -fx-border-color: #e94560;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+.list-view .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 8px;
+    -fx-font-size: 13px;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #e94560;
+    -fx-text-fill: #ffffff;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #0f3460;
+}
+
+.button {
+    -fx-background-color: #16213e;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #e94560;
+    -fx-border-width: 2px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-font-size: 13px;
+    -fx-cursor: hand;
+    -fx-padding: 8px 16px;
+}
+
+.button:hover {
+    -fx-background-color: #e94560;
+    -fx-text-fill: #ffffff;
+}
+
+.button:pressed {
+    -fx-background-color: #c73652;
+}
+
+.button-start {
+    -fx-background-color: #e94560;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #e94560;
+    -fx-border-width: 2px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 10px 20px;
+}
+
+.button-start:hover {
+    -fx-background-color: #c73652;
+}
+
+.button-verlaat {
+    -fx-background-color: transparent;
+    -fx-text-fill: #888888;
+    -fx-border-color: #888888;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+}
+
+.button-verlaat:hover {
+    -fx-text-fill: #e94560;
+    -fx-border-color: #e94560;
+}
+
+.button-taal {
+    -fx-background-color: transparent;
+    -fx-text-fill: #aaaaaa;
+    -fx-border-color: #aaaaaa;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-padding: 4px 10px;
+    -fx-font-size: 12px;
+    -fx-cursor: hand;
+}
+
+.button-taal:hover {
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #ffffff;
+}
+
+.label-feedback {
+    -fx-font-size: 13px;
+    -fx-font-style: italic;
+}
+
+.scroll-pane {
+    -fx-background-color: #1a1a2e;
+    -fx-border-color: #e94560;
+    -fx-border-width: 1px;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: #1a1a2e;
+}
+
+.scoreblad-vakje {
+    -fx-border-color: #444466;
+    -fx-background-color: #16213e;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 12px;
+    -fx-alignment: center;
+    -fx-min-width: 34px;
+    -fx-min-height: 28px;
+}
+
+.scoreblad-vakje-aangekruist {
+    -fx-border-color: #444466;
+    -fx-background-color: #e94560;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 12px;
+    -fx-alignment: center;
+    -fx-min-width: 34px;
+    -fx-min-height: 28px;
+}
+
+.label-scoreblad-info {
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.scoreblad-scroll {
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+    -fx-border-color: #ff4f81;
+}
+
+.scoreblad-info {
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 10 0;
+}
+
+.scoreblad-rij {
+    -fx-alignment: center;
+    -fx-padding: 4 0 4 0;
+}
+
+.scoreblad-vakje {
+    -fx-border-color: #5f6fa3;
+    -fx-border-width: 1;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}
+
+.scoreblad-vakje-aangekruist {
+    -fx-background-color: #d9d9d9;
+    -fx-text-fill: black;
+    -fx-border-color: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}
+
+.vakje-rood {
+    -fx-background-color: #d64545;
+    -fx-text-fill: white;
+}
+
+.vakje-geel {
+    -fx-background-color: #e6c84f;
+    -fx-text-fill: black;
+}
+
+.vakje-groen {
+    -fx-background-color: #39a85b;
+    -fx-text-fill: white;
+}
+
+.vakje-blauw {
+    -fx-background-color: #3d6fd6;
+    -fx-text-fill: white;
+}
+
+.slot-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 0 10;
+}
+
+.kleur-label {
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+}
+
+.button-taal-actief {
+    -fx-background-color: #e94560;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-background-color: #16213e;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #aaaaaa;
+    -fx-border-color: #e94560;
+    -fx-border-width: 2px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px;
+}
+
+.label-speltype {
+    -fx-text-fill: #f4d03f;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.scoreblad-basis {
+    -fx-border-color: #e94560;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-padding: 10px;
+}
+
+.scoreblad-variant {
+    -fx-border-color: #f4d03f;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-padding: 10px;
+    -fx-background-color: rgba(244, 208, 63, 0.05);
+}
+
+.keuze-dialog {
+    -fx-background-color: #1a1a2e;
+}
+
+.keuze-dialog .label {
+    -fx-text-fill: white;
+}
+
+.keuze-dialog .button {
+    -fx-background-color: #16213e;
+    -fx-text-fill: white;
+    -fx-border-color: #e94560;
+    -fx-border-width: 2px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+}
+
+.keuze-dialog .button:hover {
+    -fx-background-color: #e94560;
+}
+
+.side-panel-card {
+    -fx-background-color: #16213e;
+    -fx-background-radius: 8;
+    -fx-border-color: #e94560;
+    -fx-border-radius: 8;
+}
+
+.panel-title {
+    -fx-text-fill: #e94560;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.table-header-line {
+    -fx-border-color: #e94560;
+    -fx-border-width: 0 0 2 0;
+    -fx-padding: 0 0 8 0;
+}
+
+.table-header-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #e94560;
+}
+
+.player-stats-row {
+    -fx-background-color: #16213e;
+    -fx-padding: 8;
+    -fx-background-radius: 6;
+}
+
+.player-stats-row-active {
+    -fx-background-color: #e94560;
+    -fx-padding: 8;
+    -fx-background-radius: 6;
+}
+
+.player-stats-label {
+    -fx-text-fill: #ffffff;
+}
+
+.player-stats-label-active {
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.mini-scoreblad {
+    -fx-background-color: #1a1a2e;
+    -fx-border-color: #444466;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+.end-summary {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.winner-status {
+    -fx-text-fill: #e94560;
+    -fx-font-weight: bold;
+}

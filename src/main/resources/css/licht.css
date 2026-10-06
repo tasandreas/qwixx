@@ -1,0 +1,328 @@
+.root {
+    -fx-background-color: #f7f8fc;
+    -fx-font-family: "Arial";
+}
+
+.label-titel {
+    -fx-text-fill: #d6336c;
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(214, 51, 108, 0.25), 8, 0.4, 0, 0);
+}
+
+.label {
+    -fx-text-fill: #1f2940;
+    -fx-font-size: 14px;
+}
+
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d6336c;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+.list-view .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #1f2940;
+    -fx-padding: 8px;
+    -fx-font-size: 13px;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #d6336c;
+    -fx-text-fill: #ffffff;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #eef1fb;
+}
+
+.button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #1f2940;
+    -fx-border-color: #d6336c;
+    -fx-border-width: 2px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-font-size: 13px;
+    -fx-cursor: hand;
+    -fx-padding: 8px 16px;
+}
+
+.button:hover {
+    -fx-background-color: #d6336c;
+    -fx-text-fill: #ffffff;
+}
+
+.button:pressed {
+    -fx-background-color: #b02a5b;
+}
+
+.button-start {
+    -fx-background-color: #d6336c;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #d6336c;
+    -fx-border-width: 2px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 10px 20px;
+}
+
+.button-start:hover {
+    -fx-background-color: #b02a5b;
+}
+
+.button-verlaat {
+    -fx-background-color: transparent;
+    -fx-text-fill: #6c757d;
+    -fx-border-color: #6c757d;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+}
+
+.button-verlaat:hover {
+    -fx-text-fill: #d6336c;
+    -fx-border-color: #d6336c;
+}
+
+.button-taal {
+    -fx-background-color: transparent;
+    -fx-text-fill: #5c677d;
+    -fx-border-color: #5c677d;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-padding: 4px 10px;
+    -fx-font-size: 12px;
+    -fx-cursor: hand;
+}
+
+.button-taal:hover {
+    -fx-text-fill: #1f2940;
+    -fx-border-color: #1f2940;
+}
+
+.label-feedback {
+    -fx-font-size: 13px;
+    -fx-font-style: italic;
+}
+
+.scroll-pane {
+    -fx-background-color: #f7f8fc;
+    -fx-border-color: #d6336c;
+    -fx-border-width: 1px;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: #f7f8fc;
+}
+
+.scoreblad-vakje {
+    -fx-border-color: #a5b0c5;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #1f2940;
+    -fx-font-size: 12px;
+    -fx-alignment: center;
+    -fx-min-width: 34px;
+    -fx-min-height: 28px;
+    -fx-border-width: 1;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}
+
+.scoreblad-vakje-aangekruist {
+    -fx-background-color: #d9d9d9;
+    -fx-text-fill: black;
+    -fx-border-color: #ffffff;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}
+
+.label-scoreblad-info {
+    -fx-text-fill: #1f2940;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.scoreblad-scroll {
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+    -fx-border-color: #d6336c;
+}
+
+.scoreblad-info {
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-text-fill: #1f2940;
+    -fx-padding: 0 0 10 0;
+}
+
+.scoreblad-rij {
+    -fx-alignment: center;
+    -fx-padding: 4 0 4 0;
+}
+
+.vakje-rood {
+    -fx-background-color: #d64545;
+    -fx-text-fill: white;
+}
+
+.vakje-geel {
+    -fx-background-color: #e6c84f;
+    -fx-text-fill: black;
+}
+
+.vakje-groen {
+    -fx-background-color: #39a85b;
+    -fx-text-fill: white;
+}
+
+.vakje-blauw {
+    -fx-background-color: #3d6fd6;
+    -fx-text-fill: white;
+}
+
+.slot-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #1f2940;
+    -fx-padding: 0 0 0 10;
+}
+
+.kleur-label {
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+}
+
+.button-taal-actief {
+    -fx-background-color: #d6336c;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #1f2940;
+    -fx-prompt-text-fill: #7d8597;
+    -fx-border-color: #d6336c;
+    -fx-border-width: 2px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px;
+}
+
+.label-speltype {
+    -fx-text-fill: #b58900;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.scoreblad-basis {
+    -fx-border-color: #d6336c;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-padding: 10px;
+}
+
+.scoreblad-variant {
+    -fx-border-color: #e6c84f;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-padding: 10px;
+    -fx-background-color: rgba(230, 200, 79, 0.08);
+}
+
+.keuze-dialog {
+    -fx-background-color: #f7f8fc;
+}
+
+.keuze-dialog .label {
+    -fx-text-fill: #1f2940;
+}
+
+.keuze-dialog .button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #1f2940;
+    -fx-border-color: #d6336c;
+    -fx-border-width: 2px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+}
+
+.keuze-dialog .button:hover {
+    -fx-background-color: #d6336c;
+    -fx-text-fill: white;
+}
+
+.side-panel-card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8;
+    -fx-border-color: #d6336c;
+    -fx-border-radius: 8;
+}
+
+.panel-title {
+    -fx-text-fill: #d6336c;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.table-header-line {
+    -fx-border-color: #d6336c;
+    -fx-border-width: 0 0 2 0;
+    -fx-padding: 0 0 8 0;
+}
+
+.table-header-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #d6336c;
+}
+
+.player-stats-row {
+    -fx-background-color: #e9edf7;
+    -fx-padding: 8;
+    -fx-background-radius: 6;
+}
+
+.player-stats-row-active {
+    -fx-background-color: #d6336c;
+    -fx-padding: 8;
+    -fx-background-radius: 6;
+}
+
+.player-stats-label {
+    -fx-text-fill: #1f2940;
+}
+
+.player-stats-label-active {
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.mini-scoreblad {
+    -fx-background-color: #f7f9fd;
+    -fx-border-color: #c8d0e0;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+.end-summary {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f2940;
+}
+
+.winner-status {
+    -fx-text-fill: #d6336c;
+    -fx-font-weight: bold;
+}
